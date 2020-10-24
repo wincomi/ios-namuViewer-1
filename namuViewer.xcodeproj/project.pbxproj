@@ -1,0 +1,540 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D837385C1CA6AFF3003D4427 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D837385B1CA6AFF3003D4427 /* main.m */; };
+		D837385F1CA6AFF3003D4427 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D837385E1CA6AFF3003D4427 /* AppDelegate.m */; };
+		D83738621CA6AFF3003D4427 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D83738611CA6AFF3003D4427 /* ViewController.m */; };
+		D83738651CA6AFF3003D4427 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D83738631CA6AFF3003D4427 /* Main.storyboard */; };
+		D83738671CA6AFF3003D4427 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D83738661CA6AFF3003D4427 /* Assets.xcassets */; };
+		D837386A1CA6AFF3003D4427 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D83738681CA6AFF3003D4427 /* LaunchScreen.storyboard */; };
+		D837388E1CA6B0BE003D4427 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D837388D1CA6B0BE003D4427 /* WebKit.framework */; };
+		D83738D21CA6B6FA003D4427 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D83738D11CA6B6FA003D4427 /* Settings.bundle */; };
+		D83738EB1CA6BC51003D4427 /* SearchTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D83738EA1CA6BC51003D4427 /* SearchTableViewController.m */; };
+		D83739271CAB5DF8003D4427 /* BookmarkTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D83739261CAB5DF8003D4427 /* BookmarkTableViewController.m */; };
+		D837392F1CAB67D5003D4427 /* InfoTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D837392E1CAB67D5003D4427 /* InfoTableViewController.m */; };
+		D83739321CAB7C7A003D4427 /* TocViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D83739311CAB7C7A003D4427 /* TocViewController.m */; };
+		D837393B1CABD961003D4427 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D837393D1CABD961003D4427 /* InfoPlist.strings */; };
+		D841B2461EA265FA002A86FF /* SafariServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D841B2451EA265FA002A86FF /* SafariServices.framework */; };
+		D8D6B2771CAD320F008BE4C8 /* SchemeTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8D6B2761CAD320F008BE4C8 /* SchemeTableViewController.m */; };
+		D8D6B2831CAD35B7008BE4C8 /* libxml2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = D8D6B2821CAD35B7008BE4C8 /* libxml2.tbd */; };
+		E04CADDFCFF251D0A341474E /* Pods_namuViewer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F40C8C4F792FC689CB7C3F4F /* Pods_namuViewer.framework */; };
+		F74AA40B224FA3CA00FC6CE0 /* M13ProgressSuite.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F74AA40A224FA3CA00FC6CE0 /* M13ProgressSuite.framework */; };
+		F74AA411224FA82600FC6CE0 /* UIViewController+ENPopUp.m in Sources */ = {isa = PBXBuildFile; fileRef = F74AA40D224FA82500FC6CE0 /* UIViewController+ENPopUp.m */; };
+		F74AA412224FA82600FC6CE0 /* JWBlurView.m in Sources */ = {isa = PBXBuildFile; fileRef = F74AA40F224FA82500FC6CE0 /* JWBlurView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2DAAB338FCD407A6097DAD1E /* Pods-namuViewer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-namuViewer.release.xcconfig"; path = "Target Support Files/Pods-namuViewer/Pods-namuViewer.release.xcconfig"; sourceTree = "<group>"; };
+		B733A7ECF3D56B24C13D1693 /* Pods-namuViewer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-namuViewer.debug.xcconfig"; path = "Target Support Files/Pods-namuViewer/Pods-namuViewer.debug.xcconfig"; sourceTree = "<group>"; };
+		D83738571CA6AFF3003D4427 /* namuViewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = namuViewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D837385B1CA6AFF3003D4427 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D837385D1CA6AFF3003D4427 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D837385E1CA6AFF3003D4427 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D83738601CA6AFF3003D4427 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D83738611CA6AFF3003D4427 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D83738641CA6AFF3003D4427 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D83738661CA6AFF3003D4427 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D83738691CA6AFF3003D4427 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D837386B1CA6AFF3003D4427 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D837388D1CA6B0BE003D4427 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		D83738D11CA6B6FA003D4427 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		D83738E91CA6BC51003D4427 /* SearchTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchTableViewController.h; sourceTree = "<group>"; };
+		D83738EA1CA6BC51003D4427 /* SearchTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchTableViewController.m; sourceTree = "<group>"; };
+		D83739251CAB5DF8003D4427 /* BookmarkTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookmarkTableViewController.h; sourceTree = "<group>"; };
+		D83739261CAB5DF8003D4427 /* BookmarkTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookmarkTableViewController.m; sourceTree = "<group>"; };
+		D837392D1CAB67D5003D4427 /* InfoTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfoTableViewController.h; sourceTree = "<group>"; };
+		D837392E1CAB67D5003D4427 /* InfoTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfoTableViewController.m; sourceTree = "<group>"; };
+		D83739301CAB7C7A003D4427 /* TocViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TocViewController.h; sourceTree = "<group>"; };
+		D83739311CAB7C7A003D4427 /* TocViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TocViewController.m; sourceTree = "<group>"; };
+		D837393C1CABD961003D4427 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D837393E1CABD965003D4427 /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D837393F1CABD966003D4427 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D841B2451EA265FA002A86FF /* SafariServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SafariServices.framework; path = System/Library/Frameworks/SafariServices.framework; sourceTree = SDKROOT; };
+		D875B22B1CDC3B6F0021FB6E /* namuViewer.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = namuViewer.entitlements; sourceTree = "<group>"; };
+		D8D6B2751CAD320F008BE4C8 /* SchemeTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SchemeTableViewController.h; sourceTree = "<group>"; };
+		D8D6B2761CAD320F008BE4C8 /* SchemeTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SchemeTableViewController.m; sourceTree = "<group>"; };
+		D8D6B2821CAD35B7008BE4C8 /* libxml2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.tbd; path = usr/lib/libxml2.tbd; sourceTree = SDKROOT; };
+		F40C8C4F792FC689CB7C3F4F /* Pods_namuViewer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_namuViewer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F74AA40A224FA3CA00FC6CE0 /* M13ProgressSuite.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = M13ProgressSuite.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F74AA40D224FA82500FC6CE0 /* UIViewController+ENPopUp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+ENPopUp.m"; sourceTree = "<group>"; };
+		F74AA40E224FA82500FC6CE0 /* JWBlurView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JWBlurView.h; sourceTree = "<group>"; };
+		F74AA40F224FA82500FC6CE0 /* JWBlurView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JWBlurView.m; sourceTree = "<group>"; };
+		F74AA410224FA82500FC6CE0 /* UIViewController+ENPopUp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+ENPopUp.h"; sourceTree = "<group>"; };
+		F77B58F2224F9D3C006C8209 /* TFHpple.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = TFHpple.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D83738541CA6AFF3003D4427 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F74AA40B224FA3CA00FC6CE0 /* M13ProgressSuite.framework in Frameworks */,
+				D841B2461EA265FA002A86FF /* SafariServices.framework in Frameworks */,
+				D837388E1CA6B0BE003D4427 /* WebKit.framework in Frameworks */,
+				D8D6B2831CAD35B7008BE4C8 /* libxml2.tbd in Frameworks */,
+				E04CADDFCFF251D0A341474E /* Pods_namuViewer.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5F2C093F5809823BC185D40F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B733A7ECF3D56B24C13D1693 /* Pods-namuViewer.debug.xcconfig */,
+				2DAAB338FCD407A6097DAD1E /* Pods-namuViewer.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D837384E1CA6AFF3003D4427 = {
+			isa = PBXGroup;
+			children = (
+				D8D6B2821CAD35B7008BE4C8 /* libxml2.tbd */,
+				D837388D1CA6B0BE003D4427 /* WebKit.framework */,
+				D83738591CA6AFF3003D4427 /* namuViewer */,
+				D83738581CA6AFF3003D4427 /* Products */,
+				D841B2441EA265FA002A86FF /* Frameworks */,
+				5F2C093F5809823BC185D40F /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		D83738581CA6AFF3003D4427 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D83738571CA6AFF3003D4427 /* namuViewer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D83738591CA6AFF3003D4427 /* namuViewer */ = {
+			isa = PBXGroup;
+			children = (
+				F74AA40C224FA82500FC6CE0 /* ENPopUp */,
+				D875B22B1CDC3B6F0021FB6E /* namuViewer.entitlements */,
+				D837385D1CA6AFF3003D4427 /* AppDelegate.h */,
+				D837385E1CA6AFF3003D4427 /* AppDelegate.m */,
+				D83738601CA6AFF3003D4427 /* ViewController.h */,
+				D83738611CA6AFF3003D4427 /* ViewController.m */,
+				D83738E91CA6BC51003D4427 /* SearchTableViewController.h */,
+				D83738EA1CA6BC51003D4427 /* SearchTableViewController.m */,
+				D83739251CAB5DF8003D4427 /* BookmarkTableViewController.h */,
+				D83739261CAB5DF8003D4427 /* BookmarkTableViewController.m */,
+				D837392D1CAB67D5003D4427 /* InfoTableViewController.h */,
+				D837392E1CAB67D5003D4427 /* InfoTableViewController.m */,
+				D83739301CAB7C7A003D4427 /* TocViewController.h */,
+				D83739311CAB7C7A003D4427 /* TocViewController.m */,
+				D8D6B2751CAD320F008BE4C8 /* SchemeTableViewController.h */,
+				D8D6B2761CAD320F008BE4C8 /* SchemeTableViewController.m */,
+				D83738631CA6AFF3003D4427 /* Main.storyboard */,
+				D83738D11CA6B6FA003D4427 /* Settings.bundle */,
+				D83738661CA6AFF3003D4427 /* Assets.xcassets */,
+				D83738681CA6AFF3003D4427 /* LaunchScreen.storyboard */,
+				D837386B1CA6AFF3003D4427 /* Info.plist */,
+				D837393D1CABD961003D4427 /* InfoPlist.strings */,
+				D837385A1CA6AFF3003D4427 /* Supporting Files */,
+			);
+			path = namuViewer;
+			sourceTree = "<group>";
+		};
+		D837385A1CA6AFF3003D4427 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D837385B1CA6AFF3003D4427 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D841B2441EA265FA002A86FF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F74AA40A224FA3CA00FC6CE0 /* M13ProgressSuite.framework */,
+				F77B58F2224F9D3C006C8209 /* TFHpple.framework */,
+				D841B2451EA265FA002A86FF /* SafariServices.framework */,
+				F40C8C4F792FC689CB7C3F4F /* Pods_namuViewer.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F74AA40C224FA82500FC6CE0 /* ENPopUp */ = {
+			isa = PBXGroup;
+			children = (
+				F74AA40E224FA82500FC6CE0 /* JWBlurView.h */,
+				F74AA40F224FA82500FC6CE0 /* JWBlurView.m */,
+				F74AA410224FA82500FC6CE0 /* UIViewController+ENPopUp.h */,
+				F74AA40D224FA82500FC6CE0 /* UIViewController+ENPopUp.m */,
+			);
+			path = ENPopUp;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D83738561CA6AFF3003D4427 /* namuViewer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D83738841CA6AFF3003D4427 /* Build configuration list for PBXNativeTarget "namuViewer" */;
+			buildPhases = (
+				395E12FF9BC6E07ABA7C2385 /* [CP] Check Pods Manifest.lock */,
+				D83738531CA6AFF3003D4427 /* Sources */,
+				D83738541CA6AFF3003D4427 /* Frameworks */,
+				D83738551CA6AFF3003D4427 /* Resources */,
+				0391E5CCAD861288DBE92C2B /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = namuViewer;
+			productName = namuViewer;
+			productReference = D83738571CA6AFF3003D4427 /* namuViewer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D837384F1CA6AFF3003D4427 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = Wincomi;
+				TargetAttributes = {
+					D83738561CA6AFF3003D4427 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = M4FL5MH4DS;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.iCloud = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = D83738521CA6AFF3003D4427 /* Build configuration list for PBXProject "namuViewer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				de,
+				el,
+				es,
+				fr,
+				it,
+				ja,
+				nl,
+				"pt-PT",
+				pt,
+				ru,
+				sv,
+				th,
+				tr,
+				ko,
+			);
+			mainGroup = D837384E1CA6AFF3003D4427;
+			productRefGroup = D83738581CA6AFF3003D4427 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D83738561CA6AFF3003D4427 /* namuViewer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D83738551CA6AFF3003D4427 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D837386A1CA6AFF3003D4427 /* LaunchScreen.storyboard in Resources */,
+				D837393B1CABD961003D4427 /* InfoPlist.strings in Resources */,
+				D83738D21CA6B6FA003D4427 /* Settings.bundle in Resources */,
+				D83738671CA6AFF3003D4427 /* Assets.xcassets in Resources */,
+				D83738651CA6AFF3003D4427 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0391E5CCAD861288DBE92C2B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-namuViewer/Pods-namuViewer-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ARSafariActivity/ARSafariActivity.framework",
+				"${BUILT_PRODUCTS_DIR}/CWStatusBarNotification/CWStatusBarNotification.framework",
+				"${BUILT_PRODUCTS_DIR}/DZNEmptyDataSet/DZNEmptyDataSet.framework",
+				"${BUILT_PRODUCTS_DIR}/InAppSettingsKit/InAppSettingsKit.framework",
+				"${BUILT_PRODUCTS_DIR}/M13ProgressSuite/M13ProgressSuite.framework",
+				"${BUILT_PRODUCTS_DIR}/TFHpple/TFHpple.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ARSafariActivity.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CWStatusBarNotification.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DZNEmptyDataSet.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/InAppSettingsKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/M13ProgressSuite.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TFHpple.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-namuViewer/Pods-namuViewer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		395E12FF9BC6E07ABA7C2385 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-namuViewer-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D83738531CA6AFF3003D4427 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F74AA412224FA82600FC6CE0 /* JWBlurView.m in Sources */,
+				F74AA411224FA82600FC6CE0 /* UIViewController+ENPopUp.m in Sources */,
+				D8D6B2771CAD320F008BE4C8 /* SchemeTableViewController.m in Sources */,
+				D83738EB1CA6BC51003D4427 /* SearchTableViewController.m in Sources */,
+				D83739321CAB7C7A003D4427 /* TocViewController.m in Sources */,
+				D83739271CAB5DF8003D4427 /* BookmarkTableViewController.m in Sources */,
+				D83738621CA6AFF3003D4427 /* ViewController.m in Sources */,
+				D837385F1CA6AFF3003D4427 /* AppDelegate.m in Sources */,
+				D837385C1CA6AFF3003D4427 /* main.m in Sources */,
+				D837392F1CAB67D5003D4427 /* InfoTableViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D83738631CA6AFF3003D4427 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D83738641CA6AFF3003D4427 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D83738681CA6AFF3003D4427 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D83738691CA6AFF3003D4427 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		D837393D1CABD961003D4427 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D837393C1CABD961003D4427 /* Base */,
+				D837393E1CABD965003D4427 /* ko */,
+				D837393F1CABD966003D4427 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D83738821CA6AFF3003D4427 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D83738831CA6AFF3003D4427 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D83738851CA6AFF3003D4427 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B733A7ECF3D56B24C13D1693 /* Pods-namuViewer.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = namuViewer/namuViewer.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 33.9;
+				DEVELOPMENT_TEAM = M4FL5MH4DS;
+				HEADER_SEARCH_PATHS = "$(SDKROOT)/usr/include/libxml2";
+				INFOPLIST_FILE = namuViewer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.6.6;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wincomi.ios.namuViewer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Debug;
+		};
+		D83738861CA6AFF3003D4427 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2DAAB338FCD407A6097DAD1E /* Pods-namuViewer.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = namuViewer/namuViewer.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 33.9;
+				DEVELOPMENT_TEAM = M4FL5MH4DS;
+				HEADER_SEARCH_PATHS = "$(SDKROOT)/usr/include/libxml2";
+				INFOPLIST_FILE = namuViewer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.6.6;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wincomi.ios.namuViewer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D83738521CA6AFF3003D4427 /* Build configuration list for PBXProject "namuViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D83738821CA6AFF3003D4427 /* Debug */,
+				D83738831CA6AFF3003D4427 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D83738841CA6AFF3003D4427 /* Build configuration list for PBXNativeTarget "namuViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D83738851CA6AFF3003D4427 /* Debug */,
+				D83738861CA6AFF3003D4427 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D837384F1CA6AFF3003D4427 /* Project object */;
+}
