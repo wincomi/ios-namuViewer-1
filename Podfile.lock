@@ -1,0 +1,36 @@
+PODS:
+  - ARSafariActivity (1.0.4)
+  - CWStatusBarNotification (2.3.5)
+  - DZNEmptyDataSet (1.8.1)
+  - InAppSettingsKit (2.10)
+  - M13ProgressSuite (1.2.9)
+  - TFHpple (2.0.0)
+
+DEPENDENCIES:
+  - ARSafariActivity
+  - CWStatusBarNotification (~> 2.3.5)
+  - DZNEmptyDataSet
+  - InAppSettingsKit
+  - M13ProgressSuite
+  - TFHpple
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - ARSafariActivity
+    - CWStatusBarNotification
+    - DZNEmptyDataSet
+    - InAppSettingsKit
+    - M13ProgressSuite
+    - TFHpple
+
+SPEC CHECKSUMS:
+  ARSafariActivity: eccf8d928f242a6a290437afd27ed7178b7eadcc
+  CWStatusBarNotification: 3d2738b25c3207f60cc50201388d3c96182545ff
+  DZNEmptyDataSet: 9525833b9e68ac21c30253e1d3d7076cc828eaa7
+  InAppSettingsKit: d965e29be941eb19857271e4625de3fba6e23c9f
+  M13ProgressSuite: ea9f7263e73e9215e6849dfa54e29ee0ad6a145c
+  TFHpple: a916fe0799eb30aa29b2670d14d5868cdd3a5b81
+
+PODFILE CHECKSUM: 80aaa917e66ccbdb68b67efe938c61207fa1b0fb
+
+COCOAPODS: 1.9.1
