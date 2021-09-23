@@ -24,7 +24,6 @@
 		D8D6B2771CAD320F008BE4C8 /* SchemeTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8D6B2761CAD320F008BE4C8 /* SchemeTableViewController.m */; };
 		D8D6B2831CAD35B7008BE4C8 /* libxml2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = D8D6B2821CAD35B7008BE4C8 /* libxml2.tbd */; };
 		E04CADDFCFF251D0A341474E /* Pods_namuViewer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F40C8C4F792FC689CB7C3F4F /* Pods_namuViewer.framework */; };
-		F74AA40B224FA3CA00FC6CE0 /* M13ProgressSuite.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F74AA40A224FA3CA00FC6CE0 /* M13ProgressSuite.framework */; };
 		F74AA411224FA82600FC6CE0 /* UIViewController+ENPopUp.m in Sources */ = {isa = PBXBuildFile; fileRef = F74AA40D224FA82500FC6CE0 /* UIViewController+ENPopUp.m */; };
 		F74AA412224FA82600FC6CE0 /* JWBlurView.m in Sources */ = {isa = PBXBuildFile; fileRef = F74AA40F224FA82500FC6CE0 /* JWBlurView.m */; };
 /* End PBXBuildFile section */
@@ -74,7 +73,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F74AA40B224FA3CA00FC6CE0 /* M13ProgressSuite.framework in Frameworks */,
 				D841B2461EA265FA002A86FF /* SafariServices.framework in Frameworks */,
 				D837388E1CA6B0BE003D4427 /* WebKit.framework in Frameworks */,
 				D8D6B2831CAD35B7008BE4C8 /* libxml2.tbd in Frameworks */,
@@ -276,7 +274,6 @@
 				"${BUILT_PRODUCTS_DIR}/CWStatusBarNotification/CWStatusBarNotification.framework",
 				"${BUILT_PRODUCTS_DIR}/DZNEmptyDataSet/DZNEmptyDataSet.framework",
 				"${BUILT_PRODUCTS_DIR}/InAppSettingsKit/InAppSettingsKit.framework",
-				"${BUILT_PRODUCTS_DIR}/M13ProgressSuite/M13ProgressSuite.framework",
 				"${BUILT_PRODUCTS_DIR}/TFHpple/TFHpple.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -285,7 +282,6 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CWStatusBarNotification.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DZNEmptyDataSet.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/InAppSettingsKit.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/M13ProgressSuite.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TFHpple.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -481,12 +477,12 @@
 				CODE_SIGN_ENTITLEMENTS = namuViewer/namuViewer.entitlements;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 33.9;
+				CURRENT_PROJECT_VERSION = 33.10;
 				DEVELOPMENT_TEAM = M4FL5MH4DS;
 				HEADER_SEARCH_PATHS = "$(SDKROOT)/usr/include/libxml2";
 				INFOPLIST_FILE = namuViewer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				MARKETING_VERSION = 1.6.6;
+				MARKETING_VERSION = 1.6.7;
 				PRODUCT_BUNDLE_IDENTIFIER = com.wincomi.ios.namuViewer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -501,12 +497,12 @@
 				CODE_SIGN_ENTITLEMENTS = namuViewer/namuViewer.entitlements;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 33.9;
+				CURRENT_PROJECT_VERSION = 33.10;
 				DEVELOPMENT_TEAM = M4FL5MH4DS;
 				HEADER_SEARCH_PATHS = "$(SDKROOT)/usr/include/libxml2";
 				INFOPLIST_FILE = namuViewer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				MARKETING_VERSION = 1.6.6;
+				MARKETING_VERSION = 1.6.7;
 				PRODUCT_BUNDLE_IDENTIFIER = com.wincomi.ios.namuViewer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";

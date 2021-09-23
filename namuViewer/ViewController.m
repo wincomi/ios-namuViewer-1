@@ -5,8 +5,6 @@
 
 #import "ViewController.h"
 #import <ARSafariActivity/ARSafariActivity.h>
-#import <M13ProgressSuite/UINavigationController+M13ProgressViewBar.h>
-#import <M13ProgressSuite/UIApplication+M13ProgressSuite.h>
 
 @interface ViewController ()
 @property UIRefreshControl *refreshControl;
@@ -370,7 +368,6 @@
 	}
 
 	[UIApplication sharedApplication].networkActivityIndicatorVisible = NO;
-	[self.navigationController cancelProgress];
 
 	_goBackButton.enabled = YES;
 	_goForwardButton.enabled = YES;
@@ -578,7 +575,6 @@
 {
 	if ([keyPath isEqualToString:@"estimatedProgress"]) {
 		// estimatedProgressが変更されたら、プログレスバーを更新する
-		[self.navigationController setProgress:(_webView.estimatedProgress * 100.0f) animated:YES];
 
 		// [self.navigationController setSGProgressPercentage:self.webView.estimatedProgress * 100.0f];
 	} else if ([keyPath isEqualToString:@"title"]) {
@@ -599,7 +595,6 @@
 - (void)webView:(WKWebView *)webView didStartProvisionalNavigation:(WKNavigation *)navigation
 {
 	if (webView == _fnWebView) return;
-	[self.navigationController showProgress];
 	[UIApplication sharedApplication].networkActivityIndicatorVisible = YES;
 
 	self.navigationItem.titleView = self.titleViewActivityIndicator;
@@ -610,7 +605,6 @@
 
 - (void)webView:(WKWebView *)webView didFailProvisionalNavigation:(WKNavigation *)navigation withError:(NSError *)error
 {
-	[self.navigationController cancelProgress];
 	[UIApplication sharedApplication].networkActivityIndicatorVisible = NO;
 
 	if(webView == _fnWebView) {

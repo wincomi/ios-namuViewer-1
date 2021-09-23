@@ -10,7 +10,7 @@ target 'namuViewer' do
   pod 'InAppSettingsKit'
   pod 'DZNEmptyDataSet'
   pod 'CWStatusBarNotification', '~> 2.3.5'
-  pod 'M13ProgressSuite'
+#  pod 'M13ProgressSuite'
   pod 'TFHpple'
 # pod 'ENPopUp'
 end
