@@ -117,6 +117,11 @@
 //		self.navigationItem.rightBarButtonItem = NULL;
 //		self.navigationItem.titleView = NULL;
 //	}
+
+	// iOS13 강제 라이트모드
+	if (@available(iOS 13.0, *)) {
+		self.navigationController.overrideUserInterfaceStyle = UIUserInterfaceStyleLight;
+	}
 }
 
 - (void)changeTheme {

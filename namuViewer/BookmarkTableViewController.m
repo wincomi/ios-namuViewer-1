@@ -84,6 +84,11 @@
     [self.searchController.searchBar sizeToFit];
      */
     [self changeTheme];
+
+	// iOS13 강제 라이트모드
+	if (@available(iOS 13.0, *)) {
+		self.navigationController.overrideUserInterfaceStyle = UIUserInterfaceStyleLight;
+	}
 }
 
 - (void)viewDidAppear:(BOOL)animated {

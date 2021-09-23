@@ -31,11 +31,6 @@
 		[[NSUserDefaults standardUserDefaults] registerDefaults:defaultsToRegister];
 	}
 
-	// iOS13 강제 라이트모드
-	if (@available(iOS 13.0, *)) {
-		[UIView appearance].overrideUserInterfaceStyle = UIUserInterfaceStyleLight;
-	}
-
 	return YES;
 }
 
