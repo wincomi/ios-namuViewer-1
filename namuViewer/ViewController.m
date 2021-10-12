@@ -1109,10 +1109,10 @@
 														 modifierFlags:UIKeyModifierControl
 																action:@selector(handleShortcut:)
 												  discoverabilityTitle:@"랜덤 이동"];
-			UIKeyCommand *controlD = [UIKeyCommand keyCommandWithInput:@"d"
-														 modifierFlags:UIKeyModifierControl
-																action:@selector(handleShortcut:)
-												  discoverabilityTitle:@"다크모드"];
+//			UIKeyCommand *controlD = [UIKeyCommand keyCommandWithInput:@"d"
+//														 modifierFlags:UIKeyModifierControl
+//																action:@selector(handleShortcut:)
+//												  discoverabilityTitle:@"다크모드"];
 			/* UIKeyCommand *controlT = [UIKeyCommand keyCommandWithInput:@"t"
 			 modifierFlags:UIKeyModifierControl
 			 action:@selector(handleShortcut:)
@@ -1146,7 +1146,7 @@
 															 modifierFlags:UIKeyModifierCommand
 																	action:@selector(handleShortcut:)
 													  discoverabilityTitle:@"설정"];
-			_commands = [[NSMutableArray alloc] initWithArray:@[commandR, controlR, controlD, commandL, commandF, commandD, commandY, commandBack, commandForward, commandComma]];
+			_commands = [[NSMutableArray alloc] initWithArray:@[commandR, controlR, commandL, commandF, commandD, commandY, commandBack, commandForward, commandComma]];
 		}
 	} else {
 		if (!_commands) {

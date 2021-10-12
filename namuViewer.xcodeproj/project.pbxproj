@@ -477,7 +477,7 @@
 				CODE_SIGN_ENTITLEMENTS = namuViewer/namuViewer.entitlements;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 34;
+				CURRENT_PROJECT_VERSION = 34.1;
 				DEVELOPMENT_TEAM = M4FL5MH4DS;
 				HEADER_SEARCH_PATHS = "$(SDKROOT)/usr/include/libxml2";
 				INFOPLIST_FILE = namuViewer/Info.plist;
@@ -497,7 +497,7 @@
 				CODE_SIGN_ENTITLEMENTS = namuViewer/namuViewer.entitlements;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 34;
+				CURRENT_PROJECT_VERSION = 34.1;
 				DEVELOPMENT_TEAM = M4FL5MH4DS;
 				HEADER_SEARCH_PATHS = "$(SDKROOT)/usr/include/libxml2";
 				INFOPLIST_FILE = namuViewer/Info.plist;

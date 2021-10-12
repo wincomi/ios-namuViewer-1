@@ -31,6 +31,12 @@
 		[[NSUserDefaults standardUserDefaults] registerDefaults:defaultsToRegister];
 	}
 
+	if (@available(iOS 13.0, *)) {
+		if ([[NSUserDefaults standardUserDefaults] boolForKey: @"ignoreDarkmode"] == YES) {
+			[UIView appearance].overrideUserInterfaceStyle = UIUserInterfaceStyleLight;
+		}
+	}
+
 	return YES;
 }
 

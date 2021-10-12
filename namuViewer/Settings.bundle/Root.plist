@@ -29,6 +29,8 @@
 			<string>PSGroupSpecifier</string>
 			<key>Title</key>
 			<string>테마</string>
+			<key>FooterText</key>
+			<string>앱 재시작 후 다크모드 무시하기 설정이 적용됩니다. 시스템 설정과 관계없이 라이트모드로 설정됩니다.</string>
 		</dict>
 		<dict>
 			<key>Title</key>
@@ -58,36 +60,20 @@
 		</dict>
 		<dict>
 			<key>Type</key>
+			<string>PSToggleSwitchSpecifier</string>
+			<key>Title</key>
+			<string>다크모드 무시하기</string>
+			<key>Key</key>
+			<string>ignoreDarkmode</string>
+			<key>DefaultValue</key>
+			<false/>
+		</dict>
+		<dict>
+			<key>Type</key>
 			<string>PSGroupSpecifier</string>
 			<key>Title</key>
 			<string>일반</string>
 		</dict>
-		<!-- <dict>
-			<key>Title</key>
-			<string>각주 표시 형식</string>
-			<key>Type</key>
-			<string>PSMultiValueSpecifier</string>
-			<key>Values</key>
-			<array>
-				<string>app</string>
-				<string>default</string>
-				<string>popover</string>
-				<string>popup</string>
-				<string>unfold</string>
-			</array>
-			<key>Titles</key>
-			<array>
-				<string>앱 자체 팝업*</string>
-				<string>기본</string>
-				<string>팝오버</string>
-				<string>팝업</string>
-				<string>펼침</string>
-			</array>
-			<key>Key</key>
-			<string>footnote_type</string>
-			<key>DefaultValue</key>
-			<string>app</string>
-		</dict> -->
 		<dict>
 			<key>Type</key>
 			<string>PSToggleSwitchSpecifier</string>
