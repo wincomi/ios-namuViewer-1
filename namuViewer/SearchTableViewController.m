@@ -83,7 +83,6 @@
     // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
     self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithImage:[UIImage imageNamed:@"Close"] style:UIBarButtonItemStyleDone target:self action:@selector(dismiss:)];
 
-    [self changeTheme];
 /*
     self.searchController = [[UISearchController alloc] initWithSearchResultsController:nil];
     self.searchController.delegate = self;
@@ -124,80 +123,6 @@
 	}
 }
 
-- (void)changeTheme {
-    NSString *theme = [[NSUserDefaults standardUserDefaults] stringForKey:@"theme"];
-    
-    UIColor *tintColor = [UIColor colorWithRed:0.00 green:0.51 blue:0.46 alpha:1.00];
-    if ([theme isEqualToString:@"namu"]) {
-        self.navigationController.navigationBar.barStyle = UIBarStyleBlack;
-        self.navigationController.navigationBar.barTintColor = tintColor;
-        self.navigationController.navigationBar.tintColor = [UIColor whiteColor];
-        
-        self.navigationController.toolbar.barStyle = UIBarStyleBlack;
-        self.navigationController.toolbar.barTintColor = tintColor;
-        self.navigationController.toolbar.tintColor = [UIColor whiteColor];
-        
-        _searchField.tintColor = [UIColor whiteColor];
-        _searchField.textColor = [UIColor whiteColor];
-        _searchField.placeholder = nil;
-
-		self.tableView.backgroundColor = [UIColor whiteColor];
-    } else if ([theme isEqualToString:@"black"]) {
-        self.navigationController.navigationBar.barStyle = UIBarStyleBlack;
-        self.navigationController.navigationBar.barTintColor = nil;
-        self.navigationController.navigationBar.tintColor = [UIColor whiteColor];
-        
-        self.navigationController.toolbar.barStyle = UIBarStyleBlack;
-        self.navigationController.toolbar.barTintColor = nil;
-        self.navigationController.toolbar.tintColor = [UIColor whiteColor];
-        
-        _searchField.tintColor = [UIColor whiteColor];
-        _searchField.textColor = [UIColor whiteColor];
-        _searchField.placeholder = nil;
-        _searchField.keyboardAppearance = UIKeyboardAppearanceDark;
-        
-//        self.tableView.backgroundColor = [UIColor colorWithRed:0.22 green:0.23 blue:0.24 alpha:1.00];
-		self.tableView.backgroundColor = [UIColor blackColor];
-        self.tableView.separatorColor = [UIColor colorWithWhite:.5f alpha:.5f];
-    } else if ([theme isEqualToString:@"blackorange"]) {
-        UIColor *orangeColor = [UIColor colorWithRed:0.79 green:0.53 blue:0.09 alpha:1.00];
-        self.navigationController.navigationBar.barStyle = UIBarStyleBlack;
-        self.navigationController.navigationBar.barTintColor = nil;
-        self.navigationController.navigationBar.tintColor = orangeColor;
-        
-        self.navigationController.toolbar.barStyle = UIBarStyleBlack;
-        self.navigationController.toolbar.barTintColor = nil;
-        self.navigationController.toolbar.tintColor = orangeColor;
-        
-        _searchField.tintColor = [UIColor whiteColor];
-        _searchField.textColor = [UIColor whiteColor];
-        _searchField.placeholder = nil;
-        _searchField.keyboardAppearance = UIKeyboardAppearanceDark;
-        
-//        self.tableView.backgroundColor = [UIColor colorWithRed:0.22 green:0.23 blue:0.24 alpha:1.00];
-		self.tableView.backgroundColor = [UIColor blackColor];
-        self.tableView.separatorColor = [UIColor colorWithWhite:.5f alpha:.5f];
-    } else if ([theme isEqualToString:@"ios"]) {
-        self.navigationController.navigationBar.barStyle = UIBarStyleDefault;
-        self.navigationController.navigationBar.barTintColor = nil;
-        self.navigationController.navigationBar.tintColor = [UIColor colorWithRed:0.0 green:122.0/255.0 blue:1.0 alpha:1.0];
-        
-        self.navigationController.toolbar.barStyle = UIBarStyleDefault;
-        self.navigationController.toolbar.barTintColor = nil;
-        self.navigationController.toolbar.tintColor = [UIColor colorWithRed:0.0 green:122.0/255.0 blue:1.0 alpha:1.0];
-        
-        _searchField.tintColor = [UIColor colorWithRed:0.0 green:122.0/255.0 blue:1.0 alpha:1.0];
-    } else {
-        self.navigationController.navigationBar.barStyle = UIBarStyleDefault;
-        self.navigationController.navigationBar.barTintColor = nil;
-        self.navigationController.navigationBar.tintColor = tintColor;
-        
-        self.navigationController.toolbar.barStyle = UIBarStyleDefault;
-        self.navigationController.toolbar.barTintColor = nil;
-        self.navigationController.toolbar.tintColor = tintColor;
-    }
-    
-}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

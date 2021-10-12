@@ -83,7 +83,6 @@
     self.definesPresentationContext = YES;
     [self.searchController.searchBar sizeToFit];
      */
-    [self changeTheme];
 
 	// iOS13 강제 라이트모드
 	if (@available(iOS 13.0, *)) {
@@ -117,70 +116,6 @@
     [self.view.window removeGestureRecognizer:self.tapGesture];
 	[self.delegate bookmarkTableViewControllerDismissed:nil];
 	[self dismissViewControllerAnimated:YES completion:nil];
-}
-
-- (void)changeTheme {
-    NSString *theme = [[NSUserDefaults standardUserDefaults] stringForKey:@"theme"];
-    
-    UIColor *tintColor = [UIColor colorWithRed:0.00 green:0.51 blue:0.46 alpha:1.00];
-    if ([theme isEqualToString:@"namu"]) {
-        self.navigationController.navigationBar.barStyle = UIBarStyleBlack;
-        self.navigationController.navigationBar.barTintColor = tintColor;
-        self.navigationController.navigationBar.tintColor = [UIColor whiteColor];
-        
-        self.navigationController.toolbar.barStyle = UIBarStyleBlack;
-        self.navigationController.toolbar.barTintColor = tintColor;
-        self.navigationController.toolbar.tintColor = [UIColor whiteColor];
-        
-        _segmentedControl.tintColor = [UIColor whiteColor];
-    } else if ([theme isEqualToString:@"black"]) {
-        self.navigationController.navigationBar.barStyle = UIBarStyleBlack;
-        self.navigationController.navigationBar.barTintColor = nil;
-        self.navigationController.navigationBar.tintColor = [UIColor whiteColor];
-        
-        self.navigationController.toolbar.barStyle = UIBarStyleBlack;
-        self.navigationController.toolbar.barTintColor = nil;
-        self.navigationController.toolbar.tintColor = [UIColor whiteColor];
-        
-        self.tableView.backgroundColor = [UIColor colorWithRed:0.22 green:0.23 blue:0.24 alpha:1.00];
-        self.tableView.separatorColor = [UIColor colorWithWhite:.5f alpha:.5f];
-        
-        
-        _segmentedControl.tintColor = [UIColor whiteColor];
-    } else if ([theme isEqualToString:@"blackorange"]) {
-        UIColor *orangeColor = [UIColor colorWithRed:0.79 green:0.53 blue:0.09 alpha:1.00];
-        self.navigationController.navigationBar.barStyle = UIBarStyleBlack;
-        self.navigationController.navigationBar.barTintColor = nil;
-        self.navigationController.navigationBar.tintColor = orangeColor;
-        
-        self.navigationController.toolbar.barStyle = UIBarStyleBlack;
-        self.navigationController.toolbar.barTintColor = nil;
-        self.navigationController.toolbar.tintColor = orangeColor;
-        
-        self.tableView.backgroundColor = [UIColor colorWithRed:0.22 green:0.23 blue:0.24 alpha:1.00];
-        self.tableView.separatorColor = [UIColor colorWithWhite:.5f alpha:.5f];
-        
-        _segmentedControl.tintColor = orangeColor;
-    } else if ([theme isEqualToString:@"ios"]) {
-        self.navigationController.navigationBar.barStyle = UIBarStyleDefault;
-        self.navigationController.navigationBar.barTintColor = nil;
-        self.navigationController.navigationBar.tintColor = [UIColor colorWithRed:0.0 green:122.0/255.0 blue:1.0 alpha:1.0];
-        
-        self.navigationController.toolbar.barStyle = UIBarStyleDefault;
-        self.navigationController.toolbar.barTintColor = nil;
-        self.navigationController.toolbar.tintColor = [UIColor colorWithRed:0.0 green:122.0/255.0 blue:1.0 alpha:1.0];
-        
-        _segmentedControl.tintColor = [UIColor colorWithRed:0.0 green:122.0/255.0 blue:1.0 alpha:1.0];
-    } else {
-        self.navigationController.navigationBar.barStyle = UIBarStyleDefault;
-        self.navigationController.navigationBar.barTintColor = nil;
-        self.navigationController.navigationBar.tintColor = tintColor;
-        
-        self.navigationController.toolbar.barStyle = UIBarStyleDefault;
-        self.navigationController.toolbar.barTintColor = nil;
-        self.navigationController.toolbar.tintColor = tintColor;
-    }
-    
 }
 
 
