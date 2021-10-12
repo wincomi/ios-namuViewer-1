@@ -37,6 +37,13 @@
 		}
 	}
 
+	if (@available(iOS 13, *)) {
+		UINavigationBarAppearance *appearance = [[UINavigationBarAppearance alloc] init];
+		[appearance configureWithOpaqueBackground];
+		[[UINavigationBar appearance] setStandardAppearance: appearance];
+		[[UINavigationBar appearance] setScrollEdgeAppearance: appearance];
+	}
+
 	return YES;
 }
 
