@@ -50,6 +50,11 @@
 
 	self.view = _webView;
 
+	if (@available(iOS 13.0, *)) {
+		[self.navigationController.view setBackgroundColor:[UIColor systemBackgroundColor]];
+	} else {
+		[self.navigationController.view setBackgroundColor:[UIColor whiteColor]];
+	}
 
 	NSURL *url;
 	NSString *openURLOnLoad = [[NSUserDefaults standardUserDefaults] stringForKey:@"openURLOnLoad"];
