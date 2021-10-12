@@ -153,11 +153,7 @@
 	}
 
 	// self.navigationItem.leftBarButtonItem = _goBackButton;
-
-	_titleViewActivityIndicator = [[UIActivityIndicatorView alloc] initWithActivityIndicatorStyle:UIActivityIndicatorViewStyleGray];
-	[_titleViewActivityIndicator startAnimating];
-	_titleViewActivityIndicator.tag = 90;
-	self.navigationItem.titleView = _titleViewActivityIndicator;
+	self.navigationItem.title = @"나무위키";
 
 	dispatch_async(dispatch_get_main_queue(), ^{
 		[self changeTheme];
@@ -409,8 +405,7 @@
 		wikiTitle = @"";
 		// _searchController.searchBar.placeholder = wikiTitle;
 
-		self.navigationItem.title = wikiTitle;
-		self.navigationItem.titleView = nil;
+		self.navigationItem.title = @"나무위키";
 
 		self.isStar = [_bookmarksMutableArray containsObject:wikiTitle];
 		if (self.isStar) _starButton.image = [UIImage imageNamed:@"Star Highlight"];
@@ -596,8 +591,6 @@
 {
 	if (webView == _fnWebView) return;
 	[UIApplication sharedApplication].networkActivityIndicatorVisible = YES;
-
-	self.navigationItem.titleView = self.titleViewActivityIndicator;
 
 	self.isStar = NO;
 	_starButton.image = [UIImage imageNamed:@"Star"];
